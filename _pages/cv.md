@@ -9,56 +9,52 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+> **데이터로 문제를 정의하고, 서비스로 해결하는 기획자를 목표로 합니다.**
+> AI 전공 지식과 데이터 분석 역량을 바탕으로 데이터 기반 서비스 기획 / PM 직무를 준비하고 있습니다.
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+ **Contact** · [GitHub](https://github.com/mungangbin) · [Kaggle](https://www.kaggle.com/uukwwud) · mkbqqqqq@gmail.com
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+---
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+ Education
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**전주대학교 (Jeonju University)** — B.S. in Artificial Intelligence
+<br>*2022.03 – 현재 (3학년 재학)*
 
-Publications
+* 학업 최우등상 **5회** 수상 (학기 평점 4.0 이상)
+
+---
+
+ Certifications
 ======
-  <ul>{% for post in site.publications reversed %}
+
+| 자격증 | 분야 |
+|:--|:--|
+| **ADsP** (데이터분석 준전문가) | 데이터 분석 |
+| **SQLD** (SQL 개발자) | 데이터베이스 |
+| **ITQ** (OA MASTER) | 정보기술 활용 |
+
+---
+
+ Skills
+======
+
+| 구분 | 기술 |
+|:--|:--|
+| **Language** | Python, SQL |
+| **AI / Data** | PyTorch, Vision Transformer, CNN, 데이터 분석 |
+| **Tools** | Git, GitHub, Kaggle |
+
+---
+
+ Awards
+======
+* **장려상** — 전주대학교 교내 경진대회 *(2022)*
+
+---
+
+ Portfolio
+======
+  <ul>{% for post in site.portfolio reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
